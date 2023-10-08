@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     padding: 0;
     margin: 0;
     background: #0E0E0E;
@@ -9,16 +10,36 @@ body, html {
     margin-top: 27px;
 }
 
-nav{
+nav {
     padding: 0;
 }
 
 .nav {
     margin-right: 106px;
     margin-top: -48px;
+    color: #E8E8E8;
 }
 
-#main-content{
+ul li{
+    margin-right: 40px;
+}
+
+ul a{
+    font-family: Bebas Neue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #E8E8E8;
+}
+
+ul a:hover{
+    color: #0E0E0E;
+    background: #0090DD;
+    border-radius: 5px;
+}
+
+#main-content {
     background: url(/Portfolio/images/Blur-main.svg) no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,10 +47,10 @@ nav{
     position: relative;
 }
 
-#main-message{
+#main-message {
     margin-top: 195px;
     margin-left: 106px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
 }
 
@@ -63,7 +84,7 @@ nav{
     text-transform: capitalize;
 }
 
-#main-icons img{
+#main-icons img {
     margin-top: 90px;
     margin-right: 23px;
 }
